@@ -1,0 +1,64 @@
+{
+	"name": "figuren-theater/ft-interactive",
+	"description": "Combined workflows for interactive UX using forms, comments, webmentions, etc. Code related to user generated content for a WordPress Multisite like figuren.theater.",
+    "homepage": "https://websites.fuer.figuren.theater",
+    "type": "wordpress-muplugin",
+    "keywords": ["wordpress", "interactive", "ugc", "forms", "comments", "webmentions"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "figuren.theater",
+            "email": "info@figuren.theater"
+        },
+        {
+            "name": "Carsten Bach",
+            "email": "mail@carsten-bach.de",
+            "homepage": "https://carsten-bach.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@figuren.theater",
+        "issues": "https://github.com/figuren-theater/ft-interactive/issues",
+        "source": "https://github.com/figuren-theater/ft-interactive"
+    },
+	"autoload": {
+		"files": [
+			"inc/formality/namespace.php",
+			"inc/wp-approve-user/namespace.php",
+			"inc/namespace.php"
+		],
+        "classmap": [
+            "inc/"
+        ]
+	},
+	"repositories": [
+		{
+            "type": "git",
+            "url": "https://github.com/figuren-theater/ft-options"
+        },
+		{
+			"type": "composer",
+			"url" : "https://wpackagist.org"
+		}
+	],
+	"require": {
+        "php": ">=7.1",
+        "figuren-theater/ft-options": "^1",
+		"wpackagist-plugin/formality": "^1.5",
+		"wpackagist-plugin/wp-approve-user": "^10.0"
+	},
+    "extra": {
+        "altis": {
+            "install-overrides": [
+				"wpackagist-plugin/formality",
+            	"wpackagist-plugin/wp-approve-user"
+            ]
+        }
+    },
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	}
+}
