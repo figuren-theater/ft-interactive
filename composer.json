@@ -24,7 +24,9 @@
     },
 	"autoload": {
 		"files": [
-			"inc/formality/namespace.php",
+			"inc/antispam-bee/namespace.php",
+            "inc/formality/namespace.php",
+            "inc/remove-comments-absolutely/namespace.php",
 			"inc/wp-approve-user/namespace.php",
 			"inc/namespace.php"
 		],
@@ -45,12 +47,16 @@
 	"require": {
         "php": ">=7.1",
         "figuren-theater/ft-options": "^1",
+		"wpackagist-plugin/antispam-bee": "^2.11",
 		"wpackagist-plugin/formality": "^1.5",
-		"wpackagist-plugin/wp-approve-user": "^10.0"
+		"wpackagist-plugin/wp-approve-user": "^10.0",
+		"bueltge/remove-comments-absolutely": "^1.5"
 	},
     "extra": {
         "altis": {
             "install-overrides": [
+                "bueltge/remove-comments-absolutely",
+                "wpackagist-plugin/antispam-bee",
 				"wpackagist-plugin/formality",
             	"wpackagist-plugin/wp-approve-user"
             ]

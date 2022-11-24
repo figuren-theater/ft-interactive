@@ -17,7 +17,9 @@ use function Altis\register_module;
 function register() {
 
 	$default_settings = [
-		'enabled' => true, // needs to be set
+		'enabled'  => true, // needs to be set
+		'comments' => false,
+		'formality'=> false,
 	];
 	$options = [
 		'defaults' => $default_settings,
@@ -38,7 +40,9 @@ function register() {
 function bootstrap() {
 
 	// Plugins
+	Antispam_Bee\bootstrap();
 	Formality\bootstrap();
+	Remove_Comments_Absolutely\bootstrap();
 	WP_Approve_User\bootstrap();
 	
 	// Best practices

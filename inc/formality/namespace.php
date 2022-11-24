@@ -24,5 +24,9 @@ function bootstrap() {
 
 function load_plugin() {
 
+	$config = Figuren_Theater\get_config()['modules']['interactive'];
+	if ( ! $config['formality'] )
+		return; // early
+
 	require_once PLUGINPATH;
 }
