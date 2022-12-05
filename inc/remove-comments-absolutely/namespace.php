@@ -10,7 +10,6 @@ namespace Figuren_Theater\Interactive\Remove_Comments_Absolutely;
 use FT_VENDOR_DIR;
 
 use Figuren_Theater;
-use Figuren_Theater\Options;
 use function Figuren_Theater\get_config;
 
 use Remove_Comments_Absolute;
@@ -27,6 +26,8 @@ const PLUGINPATH = FT_VENDOR_DIR . '/bueltge/' . BASENAME;
  */
 function bootstrap() {
 
+	add_action( 'Figuren_Theater\loaded', __NAMESPACE__ . '\\filter_blocks', 0 );
+
 	add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_plugin', 9 );
 }
 
@@ -40,7 +41,10 @@ function load_plugin() {
 
 	add_action( 'load-profile.php', __NAMESPACE__ . '\\patch__remove_profile_items' );
 
-	add_filter( 'ft-disable-blocks', __NAMESPACE__ . '\\disable_blocks' );
+}
+
+function filter_blocks(){
+	add_filter( 'Figuren_Theater\Admin_UI\Disable_Gutenberg_Blocks', __NAMESPACE__ . '\\disable_blocks' );
 }
 
 function patch__remove_profile_items() {

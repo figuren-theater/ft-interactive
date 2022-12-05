@@ -52,6 +52,9 @@
 		"wpackagist-plugin/wp-approve-user": "^10.0",
 		"bueltge/remove-comments-absolutely": "^1.5"
 	},
+    "suggest": {
+        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to commenting, if available."
+    },
     "extra": {
         "altis": {
             "install-overrides": [

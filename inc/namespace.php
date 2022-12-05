@@ -17,9 +17,10 @@ use function Altis\register_module;
 function register() {
 
 	$default_settings = [
-		'enabled'  => true, // needs to be set
-		'comments' => false,
-		'formality'=> false,
+		'enabled'         => true, // needs to be set
+		'comments'        => false,
+		'formality'       => false,
+		'wp-approve-user' => false,
 	];
 	$options = [
 		'defaults' => $default_settings,

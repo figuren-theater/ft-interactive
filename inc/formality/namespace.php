@@ -9,6 +9,9 @@ namespace Figuren_Theater\Interactive\Formality;
 
 use FT_VENDOR_DIR;
 
+use Figuren_Theater;
+use function Figuren_Theater\get_config;
+
 use function add_action;
 
 const BASENAME   = 'formality/formality.php';
