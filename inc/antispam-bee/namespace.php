@@ -26,7 +26,7 @@ function bootstrap() {
 
 	add_action( 'Figuren_Theater\loaded', __NAMESPACE__ . '\\filter_options', 11 );
 	
-	add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_plugin' );
+	add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_plugin', 9 );
 }
 
 

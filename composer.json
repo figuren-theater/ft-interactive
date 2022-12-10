@@ -3,7 +3,7 @@
 	"description": "Combined workflows for interactive UX using forms, comments, webmentions, etc. Code related to user generated content for a WordPress Multisite like figuren.theater.",
     "homepage": "https://websites.fuer.figuren.theater",
     "type": "wordpress-muplugin",
-    "keywords": ["wordpress", "interactive", "ugc", "forms", "comments", "webmentions"],
+    "keywords": ["wordpress", "interactive", "ugc", "forms", "comments", "webmentions", "search"],
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -25,8 +25,10 @@
 	"autoload": {
 		"files": [
 			"inc/antispam-bee/namespace.php",
+            "inc/disable-search/namespace.php",
             "inc/formality/namespace.php",
             "inc/remove-comments-absolutely/namespace.php",
+            "inc/remove-selfping/namespace.php",
 			"inc/wp-approve-user/namespace.php",
 			"inc/namespace.php"
 		],
@@ -48,18 +50,20 @@
         "php": ">=7.1",
         "figuren-theater/ft-options": "^1",
 		"wpackagist-plugin/antispam-bee": "^2.11",
+		"wpackagist-plugin/disable-search": "^2.0",
 		"wpackagist-plugin/formality": "^1.5",
 		"wpackagist-plugin/wp-approve-user": "^10.0",
 		"bueltge/remove-comments-absolutely": "^1.5"
 	},
     "suggest": {
-        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to commenting, if available."
+        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to commenting and searching, if available."
     },
     "extra": {
         "altis": {
             "install-overrides": [
                 "bueltge/remove-comments-absolutely",
                 "wpackagist-plugin/antispam-bee",
+                "wpackagist-plugin/disable-search",
 				"wpackagist-plugin/formality",
             	"wpackagist-plugin/wp-approve-user"
             ]

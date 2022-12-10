@@ -19,6 +19,7 @@ function register() {
 	$default_settings = [
 		'enabled'         => true, // needs to be set
 		'comments'        => false,
+		'search'          => false,
 		'formality'       => false,
 		'wp-approve-user' => false,
 	];
@@ -42,10 +43,11 @@ function bootstrap() {
 
 	// Plugins
 	Antispam_Bee\bootstrap();
+	Disable_Search\bootstrap();
 	Formality\bootstrap();
 	Remove_Comments_Absolutely\bootstrap();
 	WP_Approve_User\bootstrap();
 	
 	// Best practices
-	//...\bootstrap();
+	Remove_Selfping\bootstrap();
 }
