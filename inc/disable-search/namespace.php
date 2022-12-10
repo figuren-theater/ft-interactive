@@ -14,6 +14,7 @@ use function Figuren_Theater\get_config;
 
 use function add_action;
 use function add_filter;
+use function remove_action;
 
 const BASENAME   = 'disable-search/disable-search.php';
 const PLUGINPATH = FT_VENDOR_DIR . '/wpackagist-plugin/' . BASENAME;
@@ -33,6 +34,9 @@ function load_plugin() {
 		return; // early
 
 	require_once PLUGINPATH;
+
+	remove_action( 'init', [ 'c2c_DisableSearch', 'disable_core_search_block' ], 11 );
+	remove_action( 'enqueue_block_editor_assets', [ 'c2c_DisableSearch', 'enqueue_block_editor_assets' ] );
 
 	add_filter( 'Figuren_Theater\Admin_UI\Disable_Gutenberg_Blocks', __NAMESPACE__ . '\\disable_search_block'	);
 }
