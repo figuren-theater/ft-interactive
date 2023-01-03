@@ -29,7 +29,6 @@
             "inc/formality/namespace.php",
             "inc/remove-comments-absolutely/namespace.php",
             "inc/remove-selfping/namespace.php",
-			"inc/wp-approve-user/namespace.php",
 			"inc/namespace.php"
 		],
         "classmap": [
@@ -52,7 +51,6 @@
 		"wpackagist-plugin/antispam-bee": "^2.11",
 		"wpackagist-plugin/disable-search": "^2.0",
 		"wpackagist-plugin/formality": "^1.5",
-		"wpackagist-plugin/wp-approve-user": "^10.0",
 		"bueltge/remove-comments-absolutely": "^1.5"
 	},
     "suggest": {
@@ -64,8 +62,7 @@
                 "bueltge/remove-comments-absolutely",
                 "wpackagist-plugin/antispam-bee",
                 "wpackagist-plugin/disable-search",
-				"wpackagist-plugin/formality",
-            	"wpackagist-plugin/wp-approve-user"
+				"wpackagist-plugin/formality"
             ]
         }
     },

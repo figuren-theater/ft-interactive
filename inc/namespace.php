@@ -21,7 +21,6 @@ function register() {
 		'comments'        => false,
 		'search'          => false,
 		'formality'       => false,
-		'wp-approve-user' => false,
 	];
 	$options = [
 		'defaults' => $default_settings,
@@ -46,7 +45,6 @@ function bootstrap() {
 	Disable_Search\bootstrap();
 	Formality\bootstrap();
 	Remove_Comments_Absolutely\bootstrap();
-	WP_Approve_User\bootstrap();
 	
 	// Best practices
 	Remove_Selfping\bootstrap();

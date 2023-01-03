@@ -15,7 +15,6 @@ Thoose are completely managed by code and lack of their typical UI.
 * [Formality](https://wordpress.org/plugins/formality/#developers)
 * [Remove Comments Absolutely](https://github.com/bueltge/remove-comments-absolutely)
     WordPress Plugin to deactivate comments functions and remove areas absolute form the WordPress install
-* [WP Approve User](https://wordpress.org/plugins/wp-approve-user/#developers)
 
 ## What does this package do in addition?
 
