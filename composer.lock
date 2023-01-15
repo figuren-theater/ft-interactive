@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4642b4f7215309c1cd8d3f378d7a24e",
+    "content-hash": "b582845406f2b93da0f91852d92f1f1d",
     "packages": [
         {
             "name": "bueltge/remove-comments-absolutely",
@@ -202,11 +202,11 @@
         },
         {
             "name": "figuren-theater/ft-options",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-options",
-                "reference": "caaceb3c7c3db12e92e33773db8db48b01070fb9"
+                "reference": "8f6bbd22d0dcfc3244063a73ce77f11979ae30b4"
             },
             "require": {
                 "php": ">=7.1"
@@ -245,7 +245,7 @@
                 "issues": "https://github.com/figuren-theater/ft-options/issues",
                 "source": "https://github.com/figuren-theater/ft-options"
             },
-            "time": "2022-12-05T00:41:13+00:00"
+            "time": "2022-12-31T01:06:34+00:00"
         },
         {
             "name": "wpackagist-plugin/antispam-bee",
@@ -300,24 +300,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/formality/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-approve-user",
-            "version": "10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-approve-user/",
-                "reference": "tags/10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-approve-user.10.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-approve-user/"
         }
     ],
     "packages-dev": [],
