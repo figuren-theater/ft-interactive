@@ -1,6 +1,6 @@
 {
 	"name": "figuren-theater/ft-interactive",
-	"description": "Combined workflows for interactive UX using forms, comments, webmentions, etc. Code related to user generated content for a WordPress Multisite like figuren.theater.",
+	"description": "Combined workflows for interactive UX using forms, comments, webmentions, etc. Also contains code related to user generated content for a WordPress multisite network like figuren.theater.",
     "homepage": "https://websites.fuer.figuren.theater",
     "type": "wordpress-muplugin",
     "keywords": ["wordpress", "interactive", "ugc", "forms", "comments", "webmentions", "search"],
