@@ -338,15 +338,15 @@
         },
         {
             "name": "wpackagist-plugin/formality",
-            "version": "1.5.6",
+            "version": "1.5.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formality/",
-                "reference": "tags/1.5.6"
+                "reference": "tags/1.5.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formality.1.5.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/formality.1.5.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
