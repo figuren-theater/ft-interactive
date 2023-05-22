@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bueltge/remove-comments-absolutely",
-            "version": "1.5.5",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bueltge/remove-comments-absolutely.git",
-                "reference": "e363a31e220f901c950e470956d20ec6d7a2e546"
+                "reference": "333f33fad30baaba5694918cb6d4365112fec404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bueltge/remove-comments-absolutely/zipball/e363a31e220f901c950e470956d20ec6d7a2e546",
-                "reference": "e363a31e220f901c950e470956d20ec6d7a2e546",
+                "url": "https://api.github.com/repos/bueltge/remove-comments-absolutely/zipball/333f33fad30baaba5694918cb6d4365112fec404",
+                "reference": "333f33fad30baaba5694918cb6d4365112fec404",
                 "shasum": ""
             },
             "require": {
@@ -51,9 +51,10 @@
             ],
             "support": {
                 "issues": "https://github.com/bueltge/remove-comments-absolutely/issues",
-                "source": "https://github.com/bueltge/remove-comments-absolutely/tree/1.5.5"
+                "source": "https://github.com/bueltge/remove-comments-absolutely/tree/1.5.7"
             },
-            "time": "2021-07-29T12:17:18+00:00"
+            "abandoned": "remove-comments-absolutely",
+            "time": "2023-05-16T09:25:31+00:00"
         },
         {
             "name": "composer/installers",
