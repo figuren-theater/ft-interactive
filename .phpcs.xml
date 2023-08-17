@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="project_urlname">
-	<description>Coding standards for project_urlname</description>
+<ruleset name="ft-interactive">
+	<description>Coding standards for ft-interactive</description>
 
 	<file>.</file>
 

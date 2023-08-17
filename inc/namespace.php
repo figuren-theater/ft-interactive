@@ -2,22 +2,22 @@
 /**
  * Figuren_Theater Interactive.
  *
- * @package figuren-theater/interactive
+ * @package figuren-theater/ft-interactive
  */
 
 namespace Figuren_Theater\Interactive;
 
 use Altis;
-use function Altis\register_module;
-
 
 /**
  * Register module.
+ *
+ * @return void
  */
-function register() {
+function register() :void {
 
 	$default_settings = [
-		'enabled'         => true, // needs to be set
+		'enabled'         => true, // Needs to be set.
 		'comments'        => false,
 		'search'          => false,
 		'formality'       => false,
@@ -37,15 +37,17 @@ function register() {
 
 /**
  * Bootstrap module, when enabled.
+ *
+ * @return void
  */
-function bootstrap() {
+function bootstrap() :void {
 
-	// Plugins
+	// Plugins.
 	Antispam_Bee\bootstrap();
 	Disable_Search\bootstrap();
 	Formality\bootstrap();
 	Remove_Comments_Absolutely\bootstrap();
-	
-	// Best practices
+
+	// Best practices.
 	Remove_Selfping\bootstrap();
 }

@@ -9,7 +9,7 @@
  * Domain Path:     /languages
  * Version:         1.0.11
  *
- * @package         figuren-theater/interactive
+ * @package         figuren-theater/ft-interactive
  */
 
 namespace Figuren_Theater\Interactive;
