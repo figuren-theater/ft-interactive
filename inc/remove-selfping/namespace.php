@@ -28,7 +28,7 @@ function bootstrap() :void {
  * @return void
  */
 function load( &$links ) :void {
-	$home = get_option( 'home' );
+	$home = '' . get_option( 'home' ); // Cast to string, the hard way.
 	foreach ( $links as $l => $link ) {
 		if ( 0 === strpos( $link, $home ) ) {
 			unset( $links[ $l ] );
