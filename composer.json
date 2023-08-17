@@ -1,74 +1,88 @@
 {
 	"name": "figuren-theater/ft-interactive",
 	"description": "Combined workflows for interactive UX using forms, comments, webmentions, etc. Also contains code related to user generated content for a WordPress multisite network like figuren.theater.",
-    "homepage": "https://websites.fuer.figuren.theater",
-    "type": "wordpress-muplugin",
-    "keywords": ["wordpress", "interactive", "ugc", "forms", "comments", "webmentions", "search"],
-    "license": "GPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "figuren.theater",
-            "email": "info@figuren.theater"
-        },
-        {
-            "name": "Carsten Bach",
-            "email": "mail@carsten-bach.de",
-            "homepage": "https://carsten-bach.de",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "info@figuren.theater",
-        "issues": "https://github.com/figuren-theater/ft-interactive/issues",
-        "source": "https://github.com/figuren-theater/ft-interactive"
-    },
-	"autoload": {
-		"files": [
-			"inc/antispam-bee/namespace.php",
-            "inc/disable-search/namespace.php",
-            "inc/formality/namespace.php",
-            "inc/remove-comments-absolutely/namespace.php",
-            "inc/remove-selfping/namespace.php",
-			"inc/namespace.php"
-		],
-        "classmap": [
-            "inc/"
-        ]
+	"license": "GPL-3.0-or-later",
+	"type": "wordpress-muplugin",
+	"keywords": [
+		"wordpress",
+		"interactive",
+		"ugc",
+		"forms",
+		"comments",
+		"webmentions",
+		"search"
+	],
+	"authors": [
+		{
+			"name": "figuren.theater",
+			"email": "info@figuren.theater"
+		},
+		{
+			"name": "Carsten Bach",
+			"email": "mail@carsten-bach.de",
+			"homepage": "https://carsten-bach.de",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://websites.fuer.figuren.theater",
+	"support": {
+		"email": "info@figuren.theater",
+		"issues": "https://github.com/figuren-theater/ft-interactive/issues",
+		"source": "https://github.com/figuren-theater/ft-interactive"
+	},
+	"require": {
+		"php": ">=7.1",
+		"figuren-theater/ft-options": "^1",
+		"inpsyde/disable-comments": "^1.0",
+		"wpackagist-plugin/antispam-bee": "^2.11",
+		"wpackagist-plugin/disable-search": "^2.0",
+		"wpackagist-plugin/formality": "^1.5"
+	},
+	"require-dev": {
+		"figuren-theater/code-quality": "^0.6.6"
+	},
+	"suggest": {
+		"figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to searching, if available."
 	},
 	"repositories": [
 		{
-            "type": "git",
-            "url": "https://github.com/figuren-theater/ft-options"
-        },
+			"type": "git",
+			"url": "https://github.com/figuren-theater/ft-options"
+		},
 		{
 			"type": "composer",
-			"url" : "https://wpackagist.org"
+			"url": "https://wpackagist.org"
 		}
 	],
-	"require": {
-        "php": ">=7.1",
-        "figuren-theater/ft-options": "^1",
-		"wpackagist-plugin/antispam-bee": "^2.11",
-		"wpackagist-plugin/disable-search": "^2.0",
-		"wpackagist-plugin/formality": "^1.5",
-		"bueltge/remove-comments-absolutely": "^1.5"
+	"autoload": {
+		"classmap": [
+			"inc/"
+		],
+		"files": [
+			"inc/antispam-bee/namespace.php",
+			"inc/disable-comments/namespace.php",
+			"inc/disable-search/namespace.php",
+			"inc/formality/namespace.php",
+			"inc/remove-selfping/namespace.php",
+			"inc/namespace.php"
+		]
 	},
-    "suggest": {
-        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to commenting and searching, if available."
-    },
-    "extra": {
-        "altis": {
-            "install-overrides": [
-                "bueltge/remove-comments-absolutely",
-                "wpackagist-plugin/antispam-bee",
-                "wpackagist-plugin/disable-search",
-				"wpackagist-plugin/formality"
-            ]
-        }
-    },
 	"config": {
 		"allow-plugins": {
-			"composer/installers": true
+			"composer/installers": true,
+			"phpstan/extension-installer": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"ergebnis/composer-normalize": true
+		}
+	},
+	"extra": {
+		"altis": {
+			"install-overrides": [
+				"inpsyde/disable-comments",
+				"wpackagist-plugin/antispam-bee",
+				"wpackagist-plugin/disable-search",
+				"wpackagist-plugin/formality"
+			]
 		}
 	}
 }

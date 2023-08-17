@@ -1,19 +1,19 @@
 <?php
 /**
- * Figuren_Theater Interactive Formality.
+ * Figuren_Theater Interactive Disable_Comments.
  *
  * @package figuren-theater/ft-interactive
  */
 
-namespace Figuren_Theater\Interactive\Formality;
+namespace Figuren_Theater\Interactive\Disable_Comments;
 
 use Figuren_Theater;
 
 use FT_VENDOR_DIR;
 use function add_action;
 
-const BASENAME   = 'formality/formality.php';
-const PLUGINPATH = '/wpackagist-plugin/' . BASENAME;
+const BASENAME   = 'disable-comments/disable-comments.php';
+const PLUGINPATH = '/inpsyde/' . BASENAME;
 
 /**
  * Bootstrap module, when enabled.
@@ -21,8 +21,7 @@ const PLUGINPATH = '/wpackagist-plugin/' . BASENAME;
  * @return void
  */
 function bootstrap() :void {
-
-	add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_plugin', 0 );
+	add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_plugin', 9 );
 }
 
 /**
@@ -33,9 +32,11 @@ function bootstrap() :void {
 function load_plugin() :void {
 
 	$config = Figuren_Theater\get_config()['modules']['interactive'];
-	if ( ! $config['formality'] ) {
+	if ( $config['comments'] ) {
 		return;
 	}
 
 	require_once FT_VENDOR_DIR . PLUGINPATH; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
+
 }
+
