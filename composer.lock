@@ -4,58 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b582845406f2b93da0f91852d92f1f1d",
+    "content-hash": "7da202717962a035eba4e0a38e086232",
     "packages": [
-        {
-            "name": "bueltge/remove-comments-absolutely",
-            "version": "1.5.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bueltge/remove-comments-absolutely.git",
-                "reference": "333f33fad30baaba5694918cb6d4365112fec404"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bueltge/remove-comments-absolutely/zipball/333f33fad30baaba5694918cb6d4365112fec404",
-                "reference": "333f33fad30baaba5694918cb6d4365112fec404",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "*",
-                "friendsofphp/php-cs-fixer": "*",
-                "phpcompatibility/phpcompatibility-wp": "*",
-                "wp-coding-standards/wpcs": "*"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Frank Bültge",
-                    "email": "frank@bueltge.de",
-                    "homepage": "https://bueltge.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Deactivate comments functions and remove areas absolutely from the WordPress install",
-            "homepage": "https://github.com/bueltge/remove-comments-absolutely",
-            "keywords": [
-                "comments",
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/bueltge/remove-comments-absolutely/issues",
-                "source": "https://github.com/bueltge/remove-comments-absolutely/tree/1.5.7"
-            },
-            "abandoned": "remove-comments-absolutely",
-            "time": "2023-05-16T09:25:31+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.12.0",
@@ -254,6 +204,53 @@
                 "source": "https://github.com/figuren-theater/ft-options"
             },
             "time": "2023-02-02T15:23:09+00:00"
+        },
+        {
+            "name": "inpsyde/disable-comments",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/disable-comments.git",
+                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/4e37db876b7a603980a2c92b2358d331d084ffca",
+                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 8.0"
+            },
+            "require-dev": {
+                "inpsyde/php-coding-standards": "^1",
+                "inpsyde/wp-stubs-versions": "dev-latest",
+                "vimeo/psalm": "^5.10.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Inpsyde GmbH",
+                    "email": "hello@inpsyde.com",
+                    "homepage": "https://inpsyde.com/",
+                    "role": "Company"
+                }
+            ],
+            "description": "Entirely ditches comments as a WordPress feature.",
+            "support": {
+                "issues": "https://github.com/inpsyde/disable-comments/issues",
+                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.2"
+            },
+            "time": "2023-05-25T09:07:42+00:00"
         },
         {
             "name": "markjaquith/wp-tlc-transients",

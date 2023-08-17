@@ -57,8 +57,8 @@ Thoose are completely managed by code and lack of their typical UI.
     Antispam plugin with a sophisticated toolset for effective day to day comment and trackback spam-fighting. Built with data protection and privacy in mind.
 * [Disable Search](https://wordpress.org/plugins/disable-search/#developers)
 * [Formality](https://wordpress.org/plugins/formality/#developers)
-* [Remove Comments Absolutely](https://github.com/bueltge/remove-comments-absolutely)
-    WordPress Plugin to deactivate comments functions and remove areas absolute form the WordPress install
+* [*Inpsyde* Disable Comments](https://github.com/inpsyde/disable-comments)
+    A WordPress plugin that completely disables comments as a WordPress feature.
 
 
 ### What does this package do in addition?

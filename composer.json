@@ -25,9 +25,9 @@
 	"autoload": {
 		"files": [
 			"inc/antispam-bee/namespace.php",
+      "inc/disable-comments/namespace.php",
             "inc/disable-search/namespace.php",
             "inc/formality/namespace.php",
-            "inc/remove-comments-absolutely/namespace.php",
             "inc/remove-selfping/namespace.php",
 			"inc/namespace.php"
 		],
@@ -51,15 +51,15 @@
 		"wpackagist-plugin/antispam-bee": "^2.11",
 		"wpackagist-plugin/disable-search": "^2.0",
 		"wpackagist-plugin/formality": "^1.5",
-		"bueltge/remove-comments-absolutely": "^1.5"
+		"inpsyde/disable-comments": "^1.0"
 	},
     "suggest": {
-        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to commenting and searching, if available."
+        "figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to searching, if available."
     },
     "extra": {
         "altis": {
             "install-overrides": [
-                "bueltge/remove-comments-absolutely",
+                "inpsyde/disable-comments",
                 "wpackagist-plugin/antispam-bee",
                 "wpackagist-plugin/disable-search",
 				"wpackagist-plugin/formality"

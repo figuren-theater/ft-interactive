@@ -44,9 +44,9 @@ function bootstrap() :void {
 
 	// Plugins.
 	Antispam_Bee\bootstrap();
+	Disable_Comments\bootstrap();
 	Disable_Search\bootstrap();
 	Formality\bootstrap();
-	Remove_Comments_Absolutely\bootstrap();
 
 	// Best practices.
 	Remove_Selfping\bootstrap();
