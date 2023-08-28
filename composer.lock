@@ -924,16 +924,16 @@
         },
         {
             "name": "figuren-theater/code-quality",
-            "version": "0.6.6",
+            "version": "0.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/code-quality.git",
-                "reference": "e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc"
+                "reference": "f4bd68b3e579543d09fa9d1435d758501731fcb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc",
-                "reference": "e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc",
+                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/f4bd68b3e579543d09fa9d1435d758501731fcb1",
+                "reference": "f4bd68b3e579543d09fa9d1435d758501731fcb1",
                 "shasum": ""
             },
             "require": {
@@ -973,20 +973,20 @@
                 "issues": "https://github.com/figuren-theater/code-quality/issues",
                 "source": "https://github.com/figuren-theater/code-quality"
             },
-            "time": "2023-07-17T18:30:13+00:00"
+            "time": "2023-08-25T09:10:34+00:00"
         },
         {
             "name": "figuren-theater/coding-standards",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/coding-standards.git",
-                "reference": "4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec"
+                "reference": "42929bf1e4c18f6ea16ec0a935b001548b825b5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/coding-standards/zipball/4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec",
-                "reference": "4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec",
+                "url": "https://api.github.com/repos/figuren-theater/coding-standards/zipball/42929bf1e4c18f6ea16ec0a935b001548b825b5e",
+                "reference": "42929bf1e4c18f6ea16ec0a935b001548b825b5e",
                 "shasum": ""
             },
             "require": {
@@ -1023,7 +1023,7 @@
                 "issues": "https://github.com/figuren-theater/coding-standards/issues",
                 "source": "https://github.com/figuren-theater/coding-standards"
             },
-            "time": "2023-07-18T14:22:04+00:00"
+            "time": "2023-08-25T09:04:03+00:00"
         },
         {
             "name": "figuren-theater/phpstan",
@@ -1552,16 +1552,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.29",
+            "version": "1.10.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ee5d8f2d3977fb09e55603eee6fb53bdd76ee9c1"
+                "reference": "c47e47d3ab03137c0e121e77c4d2cb58672f6d44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ee5d8f2d3977fb09e55603eee6fb53bdd76ee9c1",
-                "reference": "ee5d8f2d3977fb09e55603eee6fb53bdd76ee9c1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c47e47d3ab03137c0e121e77c4d2cb58672f6d44",
+                "reference": "c47e47d3ab03137c0e121e77c4d2cb58672f6d44",
                 "shasum": ""
             },
             "require": {
@@ -1610,7 +1610,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-14T13:24:11+00:00"
+            "time": "2023-08-24T21:54:50+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1671,16 +1671,16 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.27.0",
+            "version": "v1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "9e8ecb5f92152187c4799efd3c96b78ccab18ff9"
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/9e8ecb5f92152187c4799efd3c96b78ccab18ff9",
-                "reference": "9e8ecb5f92152187c4799efd3c96b78ccab18ff9",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fe2f306d1d9d346a7fee353d0d5012e401e984b5",
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1689,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.27-dev"
+                    "dev-main": "1.28-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1730,7 +1730,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.27.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.28.0"
             },
             "funding": [
                 {
@@ -1746,7 +1746,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-03T14:55:06+00:00"
+            "time": "2023-01-26T09:26:14+00:00"
         },
         {
             "name": "szepeviktor/phpstan-wordpress",
