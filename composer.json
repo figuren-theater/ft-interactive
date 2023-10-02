@@ -39,7 +39,7 @@
 		"wpackagist-plugin/formality": "^1.5"
 	},
 	"require-dev": {
-		"figuren-theater/code-quality": "^0.6.6"
+		"figuren-theater/code-quality": "^0.8.1"
 	},
 	"suggest": {
 		"figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to searching, if available."
