@@ -117,6 +117,8 @@ function remove_menu() : void {
 /**
  * Change the title of the Dashboard Widget to be less brandy
  *
+ * @global $wp_meta_boxes;
+ *
  * @return void
  */
 function change_meta_box_title() : void {
