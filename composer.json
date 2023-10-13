@@ -32,23 +32,19 @@
 	},
 	"require": {
 		"php": ">=7.1",
-		"figuren-theater/ft-options": "^1",
-		"inpsyde/disable-comments": "^1.0",
-		"wpackagist-plugin/antispam-bee": "^2.11",
-		"wpackagist-plugin/disable-search": "^2.0",
-		"wpackagist-plugin/formality": "^1.5"
+		"figuren-theater/ft-options": "*",
+		"inpsyde/disable-comments": "1.0.2",
+		"wpackagist-plugin/antispam-bee": "2.11.3",
+		"wpackagist-plugin/disable-search": "2.0",
+		"wpackagist-plugin/formality": "1.5.7"
 	},
 	"require-dev": {
-		"figuren-theater/code-quality": "^0.8.1"
+		"figuren-theater/code-quality": "*"
 	},
 	"suggest": {
 		"figuren-theater/ft-admin-ui": "Contains the mandatory filter, which will remove blocks related to searching, if available."
 	},
 	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/figuren-theater/ft-options"
-		},
 		{
 			"type": "composer",
 			"url": "https://wpackagist.org"
