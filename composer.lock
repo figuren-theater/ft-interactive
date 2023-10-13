@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3f8cfee7cbc561c29f81dc3fd3475a8",
+    "content-hash": "bb51750668916bb6a5b3a48aa329cae2",
     "packages": [
         {
             "name": "composer/installers",
@@ -322,15 +322,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-search",
-            "version": "2.0",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-search/",
-                "reference": "tags/2.0"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-search.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-search.2.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
