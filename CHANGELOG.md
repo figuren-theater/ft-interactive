@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-interactive/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-interactive/compare/1.1.1...HEAD)
+
+## [1.1.1](https://github.com/figuren-theater/ft-interactive/compare/1.1.0...1.1.1) - 2023-10-14
+
+### Dependency Updates & Maintenance
+
+- Bump wpackagist-plugin/antispam-bee from 2.11.3 to 2.11.5 ([#28](https://github.com/figuren-theater/ft-interactive/pull/28))
+- Bump wpackagist-plugin/disable-search from 2.0 to 2.0.1 ([#22](https://github.com/figuren-theater/ft-interactive/pull/22))
+- Set fixed versions for all 3rd-party-deps & UPDATE internal deps ([#33](https://github.com/figuren-theater/ft-interactive/pull/33))
+- Bump figuren-theater/ft-options from 1.1.10 to 1.2.3 ([#27](https://github.com/figuren-theater/ft-interactive/pull/27))
+- Bump figuren-theater/code-quality from 0.6.6 to 0.8.1 ([#30](https://github.com/figuren-theater/ft-interactive/pull/30))
 
 ## [1.1.0](https://github.com/figuren-theater/ft-interactive/compare/1.0.11...1.1.0) - 2023-08-17
 
