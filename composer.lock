@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "722e2781a7428408de848138b84958aa",
+    "content-hash": "481852637d0debf290d7f31324df47c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -211,16 +211,16 @@
         },
         {
             "name": "inpsyde/disable-comments",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/disable-comments.git",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca"
+                "reference": "46597f3ea5732ea47b9e0e7e908aea7d45e53878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/4e37db876b7a603980a2c92b2358d331d084ffca",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca",
+                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/46597f3ea5732ea47b9e0e7e908aea7d45e53878",
+                "reference": "46597f3ea5732ea47b9e0e7e908aea7d45e53878",
                 "shasum": ""
             },
             "require": {
@@ -252,9 +252,9 @@
             "description": "Entirely ditches comments as a WordPress feature.",
             "support": {
                 "issues": "https://github.com/inpsyde/disable-comments/issues",
-                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.2"
+                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.3"
             },
-            "time": "2023-05-25T09:07:42+00:00"
+            "time": "2024-03-01T12:56:09+00:00"
         },
         {
             "name": "markjaquith/wp-tlc-transients",
