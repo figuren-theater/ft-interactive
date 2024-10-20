@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc12a416e7c7722734c102dab359edcd",
+    "content-hash": "da17873395a8f12edddb6ed2176f6261",
     "packages": [
         {
             "name": "composer/installers",
@@ -212,23 +212,23 @@
         },
         {
             "name": "inpsyde/disable-comments",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/disable-comments.git",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca"
+                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/4e37db876b7a603980a2c92b2358d331d084ffca",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca",
+                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/28c254f57564f6a61b1b679f46ce3fe1e82d5614",
+                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614",
                 "shasum": ""
             },
             "require": {
                 "php": ">= 8.0"
             },
             "require-dev": {
-                "inpsyde/php-coding-standards": "^1",
+                "inpsyde/php-coding-standards": "^2.0@dev",
                 "inpsyde/wp-stubs-versions": "dev-latest",
                 "vimeo/psalm": "^5.10.0"
             },
@@ -253,9 +253,9 @@
             "description": "Entirely ditches comments as a WordPress feature.",
             "support": {
                 "issues": "https://github.com/inpsyde/disable-comments/issues",
-                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.2"
+                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.4"
             },
-            "time": "2023-05-25T09:07:42+00:00"
+            "time": "2024-10-14T11:15:01+00:00"
         },
         {
             "name": "markjaquith/wp-tlc-transients",
