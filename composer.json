@@ -35,7 +35,7 @@
 		"figuren-theater/ft-options": "*",
 		"inpsyde/disable-comments": "1.0.2",
 		"wpackagist-plugin/antispam-bee": "2.11.5",
-		"wpackagist-plugin/disable-search": "2.0.1",
+		"wpackagist-plugin/disable-search": "2.1",
 		"wpackagist-plugin/formality": "1.5.7"
 	},
 	"require-dev": {
