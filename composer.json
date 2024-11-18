@@ -34,7 +34,7 @@
 		"php": ">=7.1",
 		"figuren-theater/ft-options": "*",
 		"inpsyde/disable-comments": "1.0.4",
-		"wpackagist-plugin/antispam-bee": "2.11.6",
+		"wpackagist-plugin/antispam-bee": "2.11.7",
 		"wpackagist-plugin/disable-search": "2.1",
 		"wpackagist-plugin/formality": "1.5.7"
 	},
