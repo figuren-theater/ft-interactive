@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-interactive/compare/1.2.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-interactive/compare/1.2.1...HEAD)
+
+## [1.2.1](https://github.com/figuren-theater/ft-interactive/compare/1.2.0...1.2.1) - 2025-12-11
+
+### Dependency Updates & Maintenance
+
+- Bump wpackagist-plugin/antispam-bee from 2.11.6 to 2.11.7 ([#42](https://github.com/figuren-theater/ft-interactive/pull/42))
 
 ## [1.2.0](https://github.com/figuren-theater/ft-interactive/compare/1.1.1...1.2.0) - 2024-10-20
 
