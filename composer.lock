@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4207eb6c88ed0d89cd39bd992222fee4",
+    "content-hash": "141e385f50d7a4e87910ae234b020b3a",
     "packages": [
         {
             "name": "composer/installers",
@@ -341,15 +341,15 @@
         },
         {
             "name": "wpackagist-plugin/formality",
-            "version": "1.5.7",
+            "version": "1.5.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formality/",
-                "reference": "tags/1.5.7"
+                "reference": "tags/1.5.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formality.1.5.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/formality.1.5.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2148,12 +2148,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
