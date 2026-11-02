@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4207eb6c88ed0d89cd39bd992222fee4",
+    "content-hash": "9814a099c465676a9e8c0d23227e0572",
     "packages": [
         {
             "name": "composer/installers",
@@ -305,15 +305,15 @@
         },
         {
             "name": "wpackagist-plugin/antispam-bee",
-            "version": "2.11.7",
+            "version": "2.11.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/antispam-bee/",
-                "reference": "tags/2.11.7"
+                "reference": "tags/2.11.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.13.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2148,12 +2148,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
