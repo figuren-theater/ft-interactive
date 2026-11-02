@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4207eb6c88ed0d89cd39bd992222fee4",
+    "content-hash": "2c4397411e1537b45a9fb35ea536a657",
     "packages": [
         {
             "name": "composer/installers",
@@ -212,16 +212,16 @@
         },
         {
             "name": "inpsyde/disable-comments",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/disable-comments.git",
-                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614"
+                "reference": "49833bd8f06294d6a3dee229c1e9f231f23dbfad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/28c254f57564f6a61b1b679f46ce3fe1e82d5614",
-                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614",
+                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/49833bd8f06294d6a3dee229c1e9f231f23dbfad",
+                "reference": "49833bd8f06294d6a3dee229c1e9f231f23dbfad",
                 "shasum": ""
             },
             "require": {
@@ -244,18 +244,18 @@
             ],
             "authors": [
                 {
-                    "name": "Inpsyde GmbH",
-                    "email": "hello@inpsyde.com",
-                    "homepage": "https://inpsyde.com/",
+                    "name": "Syde GmbH",
+                    "email": "hello@syde.com",
+                    "homepage": "https://syde.com/",
                     "role": "Company"
                 }
             ],
             "description": "Entirely ditches comments as a WordPress feature.",
             "support": {
                 "issues": "https://github.com/inpsyde/disable-comments/issues",
-                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.4"
+                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.5"
             },
-            "time": "2024-10-14T11:15:01+00:00"
+            "time": "2026-09-02T09:33:06+00:00"
         },
         {
             "name": "markjaquith/wp-tlc-transients",
@@ -2148,12 +2148,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
